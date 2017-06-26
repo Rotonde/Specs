@@ -13,6 +13,7 @@ The answer is the minimum required structure for the data answered by rotonde ca
   {
     "name":"Devine Lu Linvega",
     "location":"Huahine",
+    "position":"-16.812254, -150.989524",
     "color":"#72dec2",
     "avatar":"http://wiki.xxiivv.com/public.oscean/media/brand/logo.devine.lu.linvega.png"
   },
@@ -48,6 +49,8 @@ Profile information.
 Your display name.
 #### Location
 Current location.
+#### Position
+Current geoposition in decimal, not degree-hour.
 #### Color
 Hex value for display highlights.
 #### Avatar*
@@ -67,6 +70,8 @@ Url of distant rotonde instance, followed by unixtime
 text content of the entry.
 #### Url
 Attached URL of the entry.
+#### Position
+The entry's geoposition in decimal, not degree-hour.
 
 ### Portal
 Array of subscribed rotonde instance urls, recommended limit of 30.
