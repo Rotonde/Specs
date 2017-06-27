@@ -62,10 +62,12 @@ A single SVG path stroke data, created on a canvas of 300x300.
 Array of Entries, recommended limit of 30.
 #### Time
 Unixtime.
+#### Focus
+Percentage of the day's available time dedicated to task. Float in range [0f, 1f].
 #### Media
 Url to attached image, audio, video.
 #### Ref
-Url of distant rotonde instance, followed by unixtime
+Url of distant rotonde instance, followed by unixtime.
 #### Text
 text content of the entry.
 #### Url
