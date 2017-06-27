@@ -66,13 +66,13 @@ Array of Entries, recommended limit of 30.
 #### Time
 Unixtime.
 #### Focus
-Percentage of the day's available time dedicated to task. Float in range [0f, 1f].
+Percentage of the day's available time dedicated to task. Float in range [0, 1].
 #### Media
 Url to attached image, audio, video.
 #### Ref
 Url of distant rotonde instance, followed by unixtime.
 #### Text
-text content of the entry.
+Text content of the entry.
 #### Url
 Attached URL of the entry.
 #### Position
