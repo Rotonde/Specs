@@ -1,6 +1,8 @@
 # Specifications
 
-This is a simplistic self hosted, editable, version-controlled, platform and programing language agnostic social media experiment and tool. The idea is to share a feed of daily activity logs and interactions, that's all. You can see [my feed](http://rotonde.xxiivv.com) as an example.
+Rotonde is a self-hosted, platform and programming language agnostic social media experiment. Its purpose is simply to share feeds of daily activity logs between its members. See [this feed](http://rotonde.xxiivv.com) for an example.
+
+You may browse [the custom clients](https://github.com/Rotonde) for inspiration.
 
 ## Answer
 ### The JSON structure for the Rotonde API. 
