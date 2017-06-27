@@ -28,6 +28,7 @@ The answer is the minimum required structure for the data answered by rotonde ca
       "time":"1497326400",
       "media":"http://wiki.xxiivv.com/public.oscean/media/diary/339.jpg",
       "text":"Worked on the Rotonde specs.",
+      "focus": 0.2,
       "url":"http://xxiivv.com/index.htm"
     }
   ],
