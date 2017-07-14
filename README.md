@@ -24,14 +24,18 @@ The answer is the minimum required structure for the data answered by rotonde ca
     {
       "time":"1497499200",
       "ref":"rotonde.monochromatic.co 1496203200",
-      "text":"Nice work Ian!"
+      "text":"Nice work Ian!",
+      "data":
+      {
+        "focus":"0.5",
+        "sleep":"0.3"
+      }
     },
     {
       "time":"1497326400",
       "media":"http://wiki.xxiivv.com/public.oscean/media/diary/339.jpg",
       "text":"Worked on the Rotonde specs.",
-      "focus": 0.2,
-      "url":"http://xxiivv.com/index.htm"
+      "url":"http://xxiivv.com/index.htm",
     }
   ],
   "portal":
@@ -65,8 +69,6 @@ A single SVG path stroke data, created on a canvas of 300x300.
 Array of Entries, recommended limit of 30.
 #### Time
 Unixtime.
-#### Focus
-Percentage of the day's available time dedicated to task. Float in range [0, 1].
 #### Media
 Url to attached image, audio, video.
 #### Ref
@@ -77,6 +79,17 @@ Text content of the entry.
 Attached URL of the entry.
 #### Position
 The entry's geoposition in decimal, not degree-hour.
+
+### Feed > Data
+Feed data in the format of a string key, and a float value.
+#### Focus(Example)
+Float between 0 and 1, of the day's available time dedicated to task.
+#### Nutrition(Example)
+Float between 0 and 1, of the daily nutritional goal.
+#### Sleep(Example)
+Float between 0 and 1, of the daily sleep time goal.
+#### Exercise(Example)
+Float between 0 and 1, of the daily exercise goal.
 
 ### Portal
 Array of subscribed rotonde instance urls, recommended limit of 30.
