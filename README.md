@@ -84,7 +84,7 @@ Attached URL of the entry.
 #### Position
 The entry's geoposition in decimal, not degree-hour.
 #### Topic
-The entry's topic. One per post.
+The entry's topic. One per entry.
 
 ### Feed > Data
 Feed data in the format of a string key, and a float value.
