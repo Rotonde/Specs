@@ -18,7 +18,7 @@ The answer is the minimum required structure for the data answered by rotonde ca
     "position":"-16.812254, -150.989524",
     "color":"#72dec2",
     "avatar":"http://wiki.xxiivv.com/public.oscean/media/brand/logo.devine.lu.linvega.png",
-    "tags": ["programming", "pictures"]
+    "topics": ["audio", "visual", "research", "update"]
   },
   "feed":
   [
@@ -26,7 +26,6 @@ The answer is the minimum required structure for the data answered by rotonde ca
       "time":"1497499200",
       "ref":"rotonde.monochromatic.co 1496203200",
       "text":"Nice work Ian!",
-      "tag": "programming",
       "data":
       {
         "focus":"0.5",
@@ -37,6 +36,7 @@ The answer is the minimum required structure for the data answered by rotonde ca
       "time":"1497326400",
       "media":"http://wiki.xxiivv.com/public.oscean/media/diary/339.jpg",
       "text":"Worked on the Rotonde specs.",
+      "topic": "research",
       "url":"http://xxiivv.com/index.htm",
     }
   ],
@@ -66,8 +66,8 @@ Hex value for display highlights.
 A url to an image.
 #### Glyph*
 A single SVG path stroke data, created on a canvas of 300x300.
-#### Tags*
-An array of the tags that you can use in posts
+#### Topics*
+An array of strings to organize entries by.
 
 ### Feed
 Array of Entries, recommended limit of 30.
@@ -83,8 +83,8 @@ Text content of the entry.
 Attached URL of the entry.
 #### Position
 The entry's geoposition in decimal, not degree-hour.
-#### Tag
-The posts's tag. One per post.
+#### Topic
+The entry's topic. One per post.
 
 ### Feed > Data
 Feed data in the format of a string key, and a float value.
