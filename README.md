@@ -24,8 +24,9 @@ The answer is the minimum required structure for the data answered by rotonde ca
   "feed":[
     {
       "time":"1497499200",
-      "ref":"rotonde.monochromatic.co 1357",
-      "text":"Nice work Ian!",
+      "text":"Worked on Rotonde specs.",
+      "topic":"Rotonde",
+      "task":"Development",,
       "data":
       {
         "focus":"0.5",
@@ -38,17 +39,22 @@ The answer is the minimum required structure for the data answered by rotonde ca
       "text":"Worked on the Rotonde specs.",
       "topic": "research",
       "url":"http://xxiivv.com/index.htm",
+      "data":
+      {
+        "focus":"0.5",
+        "sleep":"0.3"
+      }
     }
   ],
   "dialog":[
     {
       "time":"1497499200",
-      "ref":"rotonde.monochromatic.co 5678",
-      "type":"kudo"
+      "ref":"rotonde.monochromatic.co 1497326400",
+      "text":"!kudo"
     },{
       "time":"1497499200",
-      "ref":"rotonde.cblgh.org 1234",
-      "type":"poke"
+      "ref":"rotonde.cblgh.org 1577326300",
+      "type":"Very nice, thank you."
     }
   ],
   "portal":
