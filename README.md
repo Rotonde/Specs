@@ -26,11 +26,11 @@ The answer is the minimum required structure for the data answered by rotonde ca
       "time":"1497499200",
       "text":"Worked on Rotonde specs.",
       "topic":"Rotonde",
-      "task":"Development",,
+      "task":"Development",
       "data":
       {
-        "focus":"0.5",
-        "sleep":"0.3"
+        "focus":0.5,
+        "sleep":0.3
       }
     },
     {
@@ -41,8 +41,9 @@ The answer is the minimum required structure for the data answered by rotonde ca
       "url":"http://xxiivv.com/index.htm",
       "data":
       {
-        "focus":"0.5",
-        "sleep":"0.3"
+        "focus":0.6,
+        "sleep":0.6,
+        "nutrition":0.7
       }
     }
   ],
