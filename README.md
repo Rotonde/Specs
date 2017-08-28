@@ -21,11 +21,10 @@ The answer is the minimum required structure for the data answered by rotonde ca
     "avatar":"http://wiki.xxiivv.com/public.oscean/media/brand/logo.devine.lu.linvega.png",
     "topics": ["audio", "visual", "research", "update"]
   },
-  "feed":
-  [
+  "feed":[
     {
       "time":"1497499200",
-      "ref":"rotonde.monochromatic.co 1496203200",
+      "ref":"rotonde.monochromatic.co 1357",
       "text":"Nice work Ian!",
       "data":
       {
@@ -39,6 +38,17 @@ The answer is the minimum required structure for the data answered by rotonde ca
       "text":"Worked on the Rotonde specs.",
       "topic": "research",
       "url":"http://xxiivv.com/index.htm",
+    }
+  ],
+  "dialog":[
+    {
+      "time":"1497499200",
+      "ref":"rotonde.monochromatic.co 5678",
+      "type":"kudo"
+    },{
+      "time":"1497499200",
+      "ref":"rotonde.cblgh.org 1234",
+      "type":"poke"
     }
   ],
   "portal":
