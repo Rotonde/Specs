@@ -11,6 +11,24 @@ The answer is the minimum required structure for the data answered by rotonde ca
 
 ```
 {
+  "meta": {
+    "version": "0.0.1",
+    "canonical": "rotonde.xxiivv.com",
+    "aliases": [
+      "xxiivv.com/rotonde",
+      "162.243.128.238",
+      "oldrotonde.xxiivv.com"
+    ],
+    "options": [
+      {
+        "id": "Bradshaw/RotondeArchive",
+        "spec": "https://github.com/Bradshaw/RotondeArchive",
+        "data": {
+          "path": "/archive/$page"
+        }
+      }
+    ]
+  },
   "profile":
   {
     "name":"Devine Lu Linvega",
