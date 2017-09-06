@@ -86,13 +86,13 @@ Text content of the entry.
 Attached URL of the entry.
 #### Position
 The entry's geoposition in decimal, not degree-hour.
-#### Topic* 
-The entry's topic. One per entry.
-#### Task* 
-The topic's task type. One per entry.
 
 ### Feed > Data
-Feed data in the format of a string key, and a float value.
+Feed data in the format of a string key, and a value, typically a float or a string.
+#### Topic(Example) 
+The entry's topic.
+#### Task(Example) 
+The topic's task type.
 #### Focus(Example)
 Float between 0 and 1, of the day's available time dedicated to task.
 #### Nutrition(Example)
