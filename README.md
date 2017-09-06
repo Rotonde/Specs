@@ -24,10 +24,10 @@ The answer is the minimum required structure for the data answered by rotonde ca
     {
       "time":"1497499200",
       "text":"Worked on Rotonde specs.",
-      "topic":"Rotonde",
-      "task":"Development",
       "data":
       {
+        "topic":"Rotonde",
+        "task":"Development",
         "focus":0.5,
         "sleep":0.3
       }
@@ -36,11 +36,11 @@ The answer is the minimum required structure for the data answered by rotonde ca
       "time":"1496326400",
       "media":"http://wiki.xxiivv.com/public.oscean/media/diary/339.jpg",
       "text":"Worked on the Rotonde specs.",
-      "topic": "Rotonde",
-      "task": "Research",
       "url":"http://xxiivv.com/index.htm",
       "data":
       {
+        "topic": "Rotonde",
+        "task": "Research",
         "focus":0.6,
         "sleep":0.6,
         "nutrition":0.7
@@ -86,13 +86,13 @@ Text content of the entry.
 Attached URL of the entry.
 #### Position
 The entry's geoposition in decimal, not degree-hour.
-#### Topic* 
-The entry's topic. One per entry.
-#### Task* 
-The topic's task type. One per entry.
 
 ### Feed > Data
-Feed data in the format of a string key, and a float value.
+Feed data in the format of a string key, and a value, typically a float or a string.
+#### Topic(Example) 
+The entry's topic.
+#### Task(Example) 
+The topic's task type.
 #### Focus(Example)
 Float between 0 and 1, of the day's available time dedicated to task.
 #### Nutrition(Example)
