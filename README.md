@@ -24,10 +24,10 @@ The answer is the minimum required structure for the data answered by rotonde ca
     {
       "time":"1497499200",
       "text":"Worked on Rotonde specs.",
-      "topic":"Rotonde",
-      "task":"Development",
       "data":
       {
+        "topic":"Rotonde",
+        "task":"Development",
         "focus":0.5,
         "sleep":0.3
       }
@@ -36,11 +36,11 @@ The answer is the minimum required structure for the data answered by rotonde ca
       "time":"1496326400",
       "media":"http://wiki.xxiivv.com/public.oscean/media/diary/339.jpg",
       "text":"Worked on the Rotonde specs.",
-      "topic": "Rotonde",
-      "task": "Research",
       "url":"http://xxiivv.com/index.htm",
       "data":
       {
+        "topic": "Rotonde",
+        "task": "Research",
         "focus":0.6,
         "sleep":0.6,
         "nutrition":0.7
