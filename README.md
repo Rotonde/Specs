@@ -134,9 +134,9 @@ The canonical url of this rotonde instance. Clients should use this when sharing
 Other urls which also serve this rotonde instance
 #### Options
 Array of optional modules this instance implements
-##### Id
+##### Options > Id
 The name of the optional feature
-##### Spec
+##### Options > Spec
 Url to a human-readable spec for implementers
-##### Data
+##### Options > Data
 Free-form object containing any data the optional feature needs to work
