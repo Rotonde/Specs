@@ -11,24 +11,6 @@ The answer is the minimum required structure for the data answered by rotonde ca
 
 ```
 {
-  "meta": {
-    "version": "0.0.1",
-    "canonical": "rotonde.xxiivv.com",
-    "aliases": [
-      "xxiivv.com/rotonde",
-      "162.243.128.238",
-      "oldrotonde.xxiivv.com"
-    ],
-    "options": [
-      {
-        "id": "Bradshaw/RotondeArchive",
-        "spec": "https://github.com/Bradshaw/RotondeArchive",
-        "data": {
-          "path": "/archive/$page"
-        }
-      }
-    ]
-  },
   "profile":
   {
     "name":"Devine Lu Linvega",
@@ -73,7 +55,25 @@ The answer is the minimum required structure for the data answered by rotonde ca
     "rotonde.anxl.faith",
     "rotonde.electricgecko.de",
     "rotonde.attilam.com"
-  ]
+  ],
+  "meta": {
+    "version": "0.0.1",
+    "canonical": "rotonde.xxiivv.com",
+    "aliases": [
+      "xxiivv.com/rotonde",
+      "162.243.128.238",
+      "oldrotonde.xxiivv.com"
+    ],
+    "options": [
+      {
+        "id": "Bradshaw/RotondeArchive",
+        "spec": "https://github.com/Bradshaw/RotondeArchive",
+        "data": {
+          "path": "/archive/$page"
+        }
+      }
+    ]
+  }
 }
 ```
 
@@ -122,3 +122,21 @@ Float between 0 and 1, of the daily exercise goal.
 
 ### Portal
 Array of subscribed rotonde instance urls, recommended limit of 30.
+
+### Meta (Optional)
+Information about the rotonde instance
+#### Version
+A [semver 2.0.0](semver.org) formatted string, describing the version of the Rotonde API being used.   
+When omitted, the latest stable version is assumed
+#### canonical
+The canonical url of this rotonde instance. Clients should use this when sharing this instance and including in a Portal
+#### aliases
+Other urls which also serve this rotonde instance
+#### Options
+Array of optional modules this instance implements
+##### Id
+The name of the optional feature
+##### Spec
+Url to a human-readable spec for implementers
+##### Data
+Free-form object containing any data the optional feature needs to work
