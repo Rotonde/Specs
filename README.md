@@ -45,8 +45,13 @@ In the root directory of the dat there should be a file called `portal.json`. It
 #### `desc` a description for you & your portal
 #### `port` an array of rotonde portals
 #### `feed` a list of json objects, containing the following attributes
- ##### `message` _required_ a string
- ##### `timestamp` _required_ an int representing the unix time the message was posted
- ##### `editstamp` _optional_ an int representing the unix time of the edit
- ##### `target` _optional_ the destination portal for your message, basically a reply
- ##### `media` _optional_ the name of a media file (.jpg, .png, .gif), relative to the dat's /media/content folder
+&nbsp;&nbsp; `message` _required_   
+&nbsp;&nbsp; &nbsp;&nbsp; a string  
+&nbsp;&nbsp; `timestamp` _required_  
+&nbsp;&nbsp; &nbsp;&nbsp; an int representing the unix time the message was posted  
+&nbsp;&nbsp; `editstamp` _optional_  
+&nbsp;&nbsp; &nbsp;&nbsp; an int representing the unix time of the edit  
+&nbsp;&nbsp; `target` _optional_  
+&nbsp;&nbsp; &nbsp;&nbsp; the destination portal for your message, basically a reply  
+&nbsp;&nbsp; `media` _optional_  
+&nbsp;&nbsp; &nbsp;&nbsp; the name of a media file (.jpg, .png, .gif), relative to the dat's /media/content folder  
