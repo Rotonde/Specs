@@ -55,3 +55,5 @@ In the root directory of the dat there should be a file called `portal.json`. It
 &nbsp;&nbsp; &nbsp;&nbsp; the destination portal for your message, basically a reply  
 &nbsp;&nbsp; `media` _optional_  
 &nbsp;&nbsp; &nbsp;&nbsp; the name of a media file (.jpg, .png, .gif), relative to the dat's /media/content folder  
+#### `dat` the dat url to your rotonde portal
+#### `site` a string with a link to a website
